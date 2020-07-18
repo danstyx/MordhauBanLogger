@@ -21,7 +21,7 @@ Open the Config.ini and input all the info that is required for the bot to run.
 In the Servers section you can put the name of the server being monitored and the directory that leads exactly to your Mordhau.log file. (it must point to the Mordhau.log, not just the folder its in)
 
 For Example:
-Academy Duels=C:\Users\Administrator\Desktop\WindowsGSM Servers\servers\9\serverfiles\Mordhau\Saved\Logs\Mordhau.log
+Academy_Duels=C:\Users\Administrator\Desktop\WindowsGSM Servers\servers\9\serverfiles\Mordhau\Saved\Logs\Mordhau.log
 
 You can add as many servers as you want monitored.
 Another thing to keep in mind is that this bot only shows online while sending an alert and then instantly goes back to offline. Even if its running 24/7 you won't see the bot online unless its sending an alert.
