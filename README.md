@@ -10,10 +10,13 @@ You will need the following info to set up the bot:
 - Channel in Discord set up for your Ban Reports to be sent to by the bot.
 
 
-You will need the following programs installed:
+To get it to run from the source without the exe you would need to install:
 
 - Python (newest version is recommended, but anything over 3.6.1 should work)
-
+- aiohttp == 3.5.4
+- python_dateutil == 2.8.0
+- requests == 2.22.0
+- websockets == 7.0
 
 Setup:
 The files must be on your machine hosting the servers, it is possible to monitor remote servers also. (I will make a guide for that at a later date unless someone beats me to it.)
