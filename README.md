@@ -30,6 +30,9 @@ You can add as many servers as you want monitored.
 Another thing to keep in mind is that this bot only shows online while sending an alert and then instantly goes back to offline. Even if its running 24/7 you won't see the bot online unless its sending an alert.
 
 Logging to File:
+
+YOU MUST CREATE THE "save" FOLDER IN THE FOLDER THAT THE BOT IS RUNNING IN.
+
 The bot logs all the same info that is sent to discord into a json file that is stored within save/{year}/{month}/{Server}.json
 Each of your servers will have their own json. It will only create a new json each month for each server to cut down on the amount of files you may have to search through.
 (will probably implement database support in the future)
